@@ -1,11 +1,13 @@
 # Loopback-angular-starter-kit
 
-First commit of starter kit for develope modern web applications based on :
+ WiP  Project and starter kit for developing modern web applications inspired on :
 
 https://github.com/DigitalMachinist/loopback-angular-ui-router
 
+ 
+Todos
 
-
+- Lots of things planned
 
 License
 ----
