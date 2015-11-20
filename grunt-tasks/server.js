@@ -15,7 +15,8 @@ module.exports = function(grunt) {
             'concurrent:server',
             'autoprefixer',
             'connect:livereload',
-            'watch'
+            'watch',
+            'newer:includeSource:server'
         ]);
     });
 

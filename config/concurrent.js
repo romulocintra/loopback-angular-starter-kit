@@ -3,6 +3,7 @@
 
 module.exports = {
     server: [
+        'sass',
         'coffee:dist',
         'copy:styles'
     ],

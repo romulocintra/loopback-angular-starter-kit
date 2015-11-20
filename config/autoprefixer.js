@@ -2,7 +2,7 @@
 
 
 module.exports = {
-    options: ['last 1 version'],
+    options: ['last 3 version'],
     dist: {
         files: [{
             expand: true,

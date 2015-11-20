@@ -2,6 +2,10 @@
 
 module.exports = {
 
+     sass: {
+        files: ['<%= yeoman.app %>/styles/**/*.{scss,sass}'],
+        tasks: ['sass:server' , 'includeSource:server']
+      },
 
      includeSource: {
         files: ['<%= yeoman.app %>/index.tpl.html'],
@@ -47,7 +51,7 @@ module.exports = {
         files: [
             '<%= yeoman.app %>/{,*/}*.html',
             '<%= yeoman.app %>/**/{,*/}*.html',
-            '.tmp/styles/{,*/}*.css',
+            '<%= yeoman.app %>/styles/{,*/}*.css',
             '{.tmp,<%= yeoman.app %>}/scripts/{,*/}*.js(on)?',
             '<%= yeoman.app %>/../server/{,*/}*.js(on)?',
             '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'

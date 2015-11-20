@@ -13,5 +13,13 @@ module.exports = {
             ]
         }]
     },
-    server: '.tmp'
+     server: {
+        files: [{
+            dot: true,
+            src: [
+                '.tmp',
+                '<%= yeoman.app %>/styles/**/*.{css,map}',
+            ]
+        }]
+    },
 };
