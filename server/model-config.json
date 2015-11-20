@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ]
+  },
+  "User": {
+    "dataSource": "DB",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "DB",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "DB",
+    "public": true
+  },
+  "Role": {
+    "dataSource": "DB",
+    "public": true
+  },
+  "user": {
+    "dataSource": "DB",
+    "public": true
+  },
+   "accessToken": {
+    "dataSource": "DB",
+    "public": true
+  }
+}
