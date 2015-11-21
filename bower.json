@@ -1,58 +1,60 @@
 {
-    "name": "loopback-angular-starter-kit",
-    "version": "0.0.1",
-    "description": "Loopback and AngularJS starter kit for developing modern web applications",
-    "codename": "yttrium-yeti",
-    "authors": [
-        "Romulo Cintra <romulocintra@gmail.com>"
-    ],
-    "contributors": [{
-        "name": "Jeff Rose",
-        "email": "jrose0@gmail.com"
-    }],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/romulocintra/loopback-angular-starter-kit.git"
-    },
-    "main": "scripts/app.js",
-    "keywords": [
-        "node",
-        "loopback",
-        "strongloop",
-        "nodejs",
-        "html5",
-        "angularjs",
-        "angular"
-    ],
-    "license": "MIT",
-    "private": false,
-    "dependencies": {
-        "angular": "~1.4.0",
-        "angular-resource": "~1.4.0",
-        "angular-ui-router": "~0.2.15",
-        "angular-bootstrap": "~0.14.3",
-        "angular-animate": "~1.4.7",
-        "angular-aria": "~1.4.7",
-        "bootstrap": "~3.3.5",
-        "angular-loading-bar": "~0.8.0",
-        "material-design-iconic-font": "~2.2.0",
-        "bootstrap-sweetalert": "~0.4.5",
-        "bootstrap-growl": "~1.1.0",
-        "angular-nouislider": "~0.3.1",
-        "jquery.nicescroll": "~3.6.0"
-    },
-    "devDependencies": {
-        "angular-mocks": "~1.4.0"
-    },
-    "ignore": [
-        "**/.*",
-        "node_modules",
-        "bower_components",
-        "app/bower_components",
-        "test",
-        "tests"
-    ],
-    "resolutions": {
-        "angular": "1.4.7"
+  "name": "loopback-angular-starter-kit",
+  "version": "0.0.1",
+  "description": "Loopback and AngularJS starter kit for developing modern web applications",
+  "codename": "yttrium-yeti",
+  "authors": [
+    "Romulo Cintra <romulocintra@gmail.com>"
+  ],
+  "contributors": [
+    {
+      "name": "Jeff Rose",
+      "email": "jrose0@gmail.com"
     }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/romulocintra/loopback-angular-starter-kit.git"
+  },
+  "main": "scripts/app.js",
+  "keywords": [
+    "node",
+    "loopback",
+    "strongloop",
+    "nodejs",
+    "html5",
+    "angularjs",
+    "angular"
+  ],
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-resource": "~1.4.0",
+    "angular-ui-router": "~0.2.15",
+    "angular-bootstrap": "~0.14.3",
+    "angular-animate": "~1.4.7",
+    "angular-aria": "~1.4.7",
+    "bootstrap": "~3.3.5",
+    "angular-loading-bar": "~0.8.0",
+    "material-design-iconic-font": "~2.2.0",
+    "bootstrap-sweetalert": "~0.4.5",
+    "bootstrap-growl": "~1.1.0",
+    "angular-nouislider": "~0.3.1",
+    "jquery.nicescroll": "~3.6.0"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.4.0"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "resolutions": {
+    "angular": "1.4.8"
+  }
 }

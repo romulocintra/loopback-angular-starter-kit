@@ -8,12 +8,11 @@ module.exports = function(grunt) {
         'wiredep:dist',
         'ngtemplates:app',
         'useminPrepare',
-        'concurrent:dist',
         'autoprefixer',
         'concat',
         'ngAnnotate',
         'copy:dist',
-        'cdnify',
+        //'cdnify',
         'cssmin',
         'uglify:dist',
         'rev',
@@ -23,3 +22,5 @@ module.exports = function(grunt) {
     ]);
 
 };
+
+

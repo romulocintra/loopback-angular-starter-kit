@@ -1,4 +1,4 @@
-angular.module('app', []).run(['$templateCache', function ($templateCache) {
+angular.module('app', []).run(['$templateCache', function($templateCache) {
   'use strict';
 
   $templateCache.put('scripts/modules/auth/views/login.view.html',
